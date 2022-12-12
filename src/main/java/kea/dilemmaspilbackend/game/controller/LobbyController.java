@@ -1,11 +1,8 @@
 package kea.dilemmaspilbackend.game.controller;
 
 
-import kea.dilemmaspilbackend.dilemmas.model.CardPackageModel;
 import kea.dilemmaspilbackend.game.model.GameLobby;
-import kea.dilemmaspilbackend.game.model.GameLobbyLogger;
 import kea.dilemmaspilbackend.game.model.Player;
-import kea.dilemmaspilbackend.game.model.persistmodel.GameLobbyPersist;
 import kea.dilemmaspilbackend.game.response.LobbyResponse;
 import kea.dilemmaspilbackend.game.service.GameLobbyLoggerService;
 import kea.dilemmaspilbackend.game.service.GameService;
@@ -16,8 +13,6 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-
-@CrossOrigin
 @AllArgsConstructor
 @RestController
 public class LobbyController {

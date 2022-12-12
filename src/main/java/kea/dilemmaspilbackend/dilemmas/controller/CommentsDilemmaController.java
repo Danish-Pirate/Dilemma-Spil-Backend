@@ -11,7 +11,6 @@ import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Optional;
 import java.util.Set;
-@CrossOrigin
 @RestController
 public class CommentsDilemmaController {
 

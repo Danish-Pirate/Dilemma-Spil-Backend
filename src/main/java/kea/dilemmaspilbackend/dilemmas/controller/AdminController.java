@@ -13,7 +13,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
 @Controller
-@CrossOrigin
 @AllArgsConstructor
 public class AdminController {
     private AdminUserService adminUserService;
