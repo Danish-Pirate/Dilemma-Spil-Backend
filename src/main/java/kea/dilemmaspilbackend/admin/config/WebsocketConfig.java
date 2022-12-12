@@ -12,7 +12,7 @@ public class WebsocketConfig implements WebSocketMessageBrokerConfigurer {
 
     @Override
     public void registerStompEndpoints(StompEndpointRegistry registry) {
-        registry.addEndpoint("/game/{lobby}").setAllowedOrigins("http://localhost:63343/", "http://127.0.0.1:5500/", "https://lively-pond-0744c3603.2.azurestaticapps.net").withSockJS();
+        registry.addEndpoint("/game/{lobby}").setAllowedOrigins("http://localhost:63343/", "http://127.0.0.1:5500/", "https://lively-pond-0744c3603.2.azurestaticapps.net/**").withSockJS();
     }
 
     @Override
